@@ -1,0 +1,29 @@
+body {
+    font-size: 8px;
+}
+
+#text {
+    color: blueviolet;
+    border: 0.5rem solid blueviolet;
+    font-size: 1rem;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    color: brown;
+    font-size: 3rem;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+p {
+    text-transform: inherit;
+    text-decoration: overline;
+}
+
+#justify {
+    text-align: justify;
+}

@@ -1,0 +1,21 @@
+.parent {
+    position: relative;
+}
+
+.child-one {
+    /* position: relative;
+    top: 50px;
+    left: 50px; */
+}
+
+.child-tow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.child-three {
+    position: sticky;
+    top: 0;
+}

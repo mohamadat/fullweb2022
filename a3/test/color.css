@@ -1,0 +1,38 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(45deg, rgba(2, 0, 36, 1) 8%, rgba(0, 212, 255, 1) 87%);
+}
+
+#id {}
+
+.class {}
+
+#box {
+    background-color: azure;
+    width: 300px;
+    height: 300px;
+    /*border-style: inset;
+    border-color: brown;
+    border-width: 10px;
+    */
+    border: 10px solid red;
+    border-radius: 20px;
+    cursor: grab;
+}
+
+p {
+    border: 5px dashed yellow;
+    display: inline-block;
+    margin: 20px;
+    padding: 50px;
+}
+
+img {
+    /*border: 5px solid gold;
+    */
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

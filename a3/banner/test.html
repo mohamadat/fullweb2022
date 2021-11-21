@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: rgb(0, 153, 255);
+        }
+        
+        .border {
+            border-bottom-style: double;
+            border-width: 50px;
+            border-radius: 15px;
+        }
+        
+        .card img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        
+        .card {
+            text-align: center;
+            width: 300px;
+            border-style: double;
+            border-width: 5px;
+            border-radius: 15px;
+            background: #fff;
+        }
+        
+        .card:hover {
+            background: rgb(128, 120, 120);
+        }
+        
+        .btn {
+            text-transform: uppercase;
+            background: rgb(106, 194, 6);
+            width: 100px;
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+        
+        .flex {
+            display: flex;
+            justify-content: space-around;
+            /* flex-wrap: ; */
+            /* margin-top: 40px; */
+            margin-top: 5rem;
+        }
+        
+        hr {
+            height: 20px;
+            background: #000;
+            margin: 5rem 0;
+            border-radius: 15px;
+        }
+        
+        footer,
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        footer ul {
+            list-style: none;
+        }
+        
+        nav ul li {
+            display: inline;
+        }
+        
+        section {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="border">
+        <nav>
+            <h1>test</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="flex">
+        <div class="card">
+            <img src="https://picsum.photos/200/200" alt="">
+            <h1>HTML</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quas?</p>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/200/200" alt="">
+            <h1>JS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quas?</p>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/200/200" alt="">
+            <h1>CSS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quas?</p>
+            <a href="#" class="btn">Click</a>
+        </div>
+    </div>
+    <hr>
+  <div style="height: 100vh;"></div>
+    <section>
+        <h1>Welcome</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odio iusto debitis eos, rem exercitationem. Quisquam adipisci quod quas, nemo accusamus voluptates quasi. At vero ducimus illo quod beatae voluptates cumque laboriosam! Porro, at.
+            Facere porro laboriosam maiores sint adipisci.</p>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

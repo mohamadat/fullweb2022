@@ -1,0 +1,28 @@
+.parent {
+    position: relative;
+}
+
+.child-one {
+    /* position: relative;
+    top: 10px;
+    left: 10px; */
+}
+
+.child-tow {
+    position: sticky;
+    top: 0;
+}
+
+.child-three {}
+
+.child {}
+
+.parent {}
+
+.child-one {}
+
+.child-tow {}
+
+.child-three {}
+
+.child {}
