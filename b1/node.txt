@@ -1,0 +1,8 @@
+npm init: to create npm project
+npm init --yes: to create npm project default values
+
+
+npm install [packagename] --save
+npm install: to install all lib in package.json
+npm update: to update all lib in package.json
+npm rm [package name]
